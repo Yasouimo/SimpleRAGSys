@@ -2,6 +2,8 @@
 
 A lightweight Retrieval-Augmented Generation (RAG) system that runs entirely locally using Ollama (Gemma 2B) and FAISS vector search. Perfect for querying your documents privately without sending data to external APIs.
 
+**Supported formats**: PDF, Markdown (.md), and plain text (.txt) files.
+
 ## 📋 Overview
 
 ![App Overview](images/App_overview.png)
@@ -54,9 +56,10 @@ Ask questions about your indexed documents. The system:
 
 ![Upload New Document](images/New_doc_uploaded.png)
 
-Simply drag and drop PDF, TXT, or Markdown files to add them to your knowledge base. The system:
+Simply drag and drop **PDF, Markdown, or TXT** files to add them to your knowledge base. The system:
 - Automatically chunks and indexes new content
 - Supports files up to 5MB
+- Handles both PDF and Markdown formats equally
 - Updates the index in real-time
 
 ---
